@@ -1,12 +1,8 @@
 {
-  "name": "telegram-autofilter-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Advanced Telegram autofilter bot",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
-  },
-  "keywords": ["telegram", "bot", "autofilter", "cloudflare"],
-  "author": "zerocreations"
+    "start": "node index.js"
+  }
 }
